@@ -1,4 +1,4 @@
-﻿namespace _01._1_Homework__Guess_number_
+﻿namespace _01_Lesson__Intro_
 {
     partial class Form1
     {
@@ -28,12 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            label1 = new Label();
+            ButtonStart = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(281, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(255, 38);
+            label1.TabIndex = 0;
+            label1.Text = "Guess the number";
+            // 
+            // ButtonStart
+            // 
+            ButtonStart.BackColor = SystemColors.ActiveCaption;
+            ButtonStart.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            ButtonStart.Location = new Point(332, 218);
+            ButtonStart.Name = "ButtonStart";
+            ButtonStart.Size = new Size(140, 69);
+            ButtonStart.TabIndex = 1;
+            ButtonStart.Text = "Start";
+            ButtonStart.UseVisualStyleBackColor = false;
+            ButtonStart.Click += ClickButtonStart;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 394);
+            Controls.Add(ButtonStart);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Hello windows forms";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private Button ButtonStart;
     }
 }
