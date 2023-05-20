@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_05_Lesson__Multi_Forms_</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Iron-Devil-Ids-Space-Lab-Space-Friend.ico</ApplicationIcon>
+    <AssemblyName>Shop</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Iron-Devil-Ids-Space-Lab-Space-Friend.ico" />
+  </ItemGroup>
+
+</Project>
