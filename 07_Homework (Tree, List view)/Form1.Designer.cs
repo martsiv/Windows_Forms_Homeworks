@@ -253,6 +253,7 @@
             Controls.Add(listView1);
             Controls.Add(toolStrip1);
             Controls.Add(treeView1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";

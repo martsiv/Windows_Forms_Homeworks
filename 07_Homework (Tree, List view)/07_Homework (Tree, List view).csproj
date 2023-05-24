@@ -7,7 +7,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>FileManager</AssemblyName>
+    <ApplicationIcon>Alecive-Flatwoken-Apps-File-Manager-B.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Alecive-Flatwoken-Apps-File-Manager-B.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
